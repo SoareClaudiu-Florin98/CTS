@@ -1,6 +1,4 @@
-package program;
-
-import org.w3c.dom.ls.LSOutput;
+package ro.ase.cts;
 
 public class Zookeper {
     private String name ;

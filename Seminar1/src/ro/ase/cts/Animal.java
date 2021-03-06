@@ -1,4 +1,4 @@
-package program;
+package ro.ase.cts;
 
 public abstract class  Animal {
     private String name ;
