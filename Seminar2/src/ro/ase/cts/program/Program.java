@@ -1,4 +1,5 @@
 package ro.ase.cts.program;
+import ro.ase.cts.clase.Proiect;
 import ro.ase.cts.clase.readers.EleviReader;
 import ro.ase.cts.clase.readers.Readable;
 import ro.ase.cts.clase.Angajat;
@@ -19,8 +20,12 @@ public class Program {
         List<Aplicant> listaAplicanti ;
         try {
             listaAplicanti = citesteAplicanti(new EleviReader("Seminar2/elevi.txt"));
-            for(Aplicant aplicant:listaAplicanti)
+            for(Aplicant aplicant:listaAplicanti){
                 System.out.println(aplicant.toString());
+                System.out.println(aplicant.getFinantare());
+                aplicant.displayStateInProject(new Proiect(80));
+            }
+
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
