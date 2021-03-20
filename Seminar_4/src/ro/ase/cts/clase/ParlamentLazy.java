@@ -7,6 +7,7 @@ public class ParlamentLazy {
     private String denumireSediu;
     private static ParlamentLazy parlamentLazy ;
 
+    //lazy initialization
     public static synchronized ParlamentLazy getInstance(String tara, int nrParlamentari, int durataMandat, String denumireSediu){
         if(parlamentLazy == null){
             synchronized (ParlamentLazy.class){
