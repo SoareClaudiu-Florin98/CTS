@@ -11,7 +11,6 @@ public class Scara {
         if(scara == null){
             synchronized (Scara.class){
                 scara = new Scara() ;
-
             }
         }
         return scara ;
