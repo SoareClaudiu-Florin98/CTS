@@ -1,11 +1,8 @@
-package ro.ase.cts.program;
-import ro.ase.cts.clase.Proiect;
-import ro.ase.cts.clase.readers.EleviReader;
-import ro.ase.cts.clase.readers.Readable;
-import ro.ase.cts.clase.Angajat;
-import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.readers.AngajatiReader;
-import ro.ase.cts.clase.readers.StudentiReaders;
+package ro.ase.cts.prototypeMain;
+import ro.ase.cts.clasePrototype.Proiect;
+import ro.ase.cts.clasePrototype.readers.EleviReader;
+import ro.ase.cts.clasePrototype.readers.Readable;
+import ro.ase.cts.clasePrototype.Aplicant;
 
 import java.io.FileNotFoundException;
 import java.util.List;

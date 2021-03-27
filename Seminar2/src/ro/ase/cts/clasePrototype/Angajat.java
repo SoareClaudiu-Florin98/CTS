@@ -1,6 +1,4 @@
-package ro.ase.cts.clase;
-
-import java.util.Arrays;
+package ro.ase.cts.clasePrototype;
 
 public class Angajat extends Aplicant{
 
