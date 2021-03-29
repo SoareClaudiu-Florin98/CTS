@@ -1,8 +1,8 @@
-package ro.ase.cts.prototypeMain;
+package ro.ase.cts.mainSingletone;
 
-import ro.ase.cts.clasePrototype.Parlament;
-import ro.ase.cts.clasePrototype.ParlamentLazy;
-import ro.ase.cts.clasePrototype.Scara;
+import ro.ase.cts.claseSingletone.Parlament;
+import ro.ase.cts.claseSingletone.ParlamentLazy;
+import ro.ase.cts.claseSingletone.Scara;
 
 public class Main {
     public static void main(String[] args) {

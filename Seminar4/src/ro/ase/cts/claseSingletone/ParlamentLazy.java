@@ -1,4 +1,4 @@
-package ro.ase.cts.clasePrototype;
+package ro.ase.cts.claseSingletone;
 
 public class ParlamentLazy {
     private String tara;
