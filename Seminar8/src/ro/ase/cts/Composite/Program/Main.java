@@ -20,9 +20,7 @@ public class Main {
 
             meniu.printareElement();
             System.out.println("-------------------------");
-
-
-
+            bauturi.stergeNod(frappe);
             desert.adaugareNod(frappe);
             meniu.printareElement();
 
