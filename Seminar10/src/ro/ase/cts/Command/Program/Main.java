@@ -1,7 +1,6 @@
 package ro.ase.cts.Command.Program;
 
 import ro.ase.cts.Command.clase.*;
-import ro.ase.cts.observer.Command.clase.*;
 
 public class Main {
     public static void main(String[] args) {

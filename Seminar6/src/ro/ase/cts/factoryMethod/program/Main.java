@@ -1,7 +1,6 @@
 package ro.ase.cts.factoryMethod.program;
 
 import ro.ase.cts.factoryMethod.clase.*;
-import ro.ase.cts.observer.factoryMethod.clase.*;
 
 public class Main {
 
